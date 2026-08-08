@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Puff Delight </title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  </head>
+  <body>
+    <div class="parallax-bg">
+      <div class="layer layer-1"></div>
+      <div class="layer layer-2"></div>
+      <div class="layer layer-3"></div>
+    </div>
+
+    <header class="topbar">
+      
+        <div class="logo">
+            <img src="https://cdn-icons-png.flaticon.com/512/3082/3082037.png" alt="Logo">
+            <h2>Puff Delight</h2>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="nav-icons">
+            <i class="fas fa-search" id="searchBtn"></i>
+            <i class="fas fa-heart" id="wishlistBtn"></i>
+            <i class="fas fa-shopping-cart" id="cartBtn"></i>
+        </div>
+
+  <div id="searchBox" class="search-box">
+    <input id="searchInput" type="text" placeholder="Search puff...">
+</div>
+
+
+    </header>
+
+    <div class="search-box" id="searchBox">
+      <input type="text" id="serachInput" placeholder="Search puff...">
+      <button id="closeSearch">x</button>
+    </div>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Luxury comfort • Premium puff collection</p>
+          <h1>Soft vibes, bold style, and instant comfort.</h1>
+          <p class="hero-text">
+            Discover puff essentials designed to feel cozy from the first touch.
+            Add your favorites, build your order, and enjoy a polished shopping experience.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#products">Explore Puff</a>
+            <button class="btn ghost" id="openCheckout">Order Now</button>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <section id="products" class="products">
+        <div class="section-title">
+          <p class="eyebrow">Trending picks</p>
+          <h2>Pick your favorite puff</h2>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <img src="vegpuff.JPEG" alt="Veg Puff" class="product-image">
+            <h3>Veg Puff</h3>
+            <p>Crispy pastry filled with flavorful spiced vegetables and baked to golden perfection.</p>
+              <span>₹25</span>
+              <button class="add-btn" data-name="Veg Puff" data-price="25">Add to Cart</button>
+          </article>
+
+          <article class="product-card">
+            <h3>Paneer Puff</h3>
+            <p>Flaky golden pastry filled with creamy paneer and flavorful spices.</p>
+              <span>₹30</span>
+              <button class="add-btn" data-name="Paneer Puff" data-price="30">Add to Cart</button>
+          </article>
+
+          <article class="product-card">
+            <h3>Cheese Puff</h3>
+            <p>Warm tones and smooth texture for everyday luxury.</p>
+              <span>₹45</span>
+              <button class="add-btn" data-name="Cheese Puff" data-price="45">Add to Cart</button>
+          </article>
+
+          <article class="product-card">
+            <h3>Schezwan Puff</h3>
+            <P>Flaky golden pastry filled with spicy schezwan flavors and a delicious veggie filling.</P>
+              <span>₹45</span>
+              <button class="add-btn" data-name="Schezwan Puff" data-price="45">Add to Cart</button>
+          </article>
+
+          <article class="product-card">
+            <h3>Mayonnaise Puff</h3>
+            <P>Flaky golden pastry filled with creamy mayonnaise and a flavorful veggie filling.</P>
+              <span>₹40</span>
+              <button class="add-btn" data-name="Mayonnaise Puff" data-price="40">Add to Cart</button>
+          </article>
+
+          <article class="product-card">
+            <h3>Malai Puff</h3>
+            <P>Creamy malai and a deliciously rich, flavorful filling.</P>
+              <span>₹45</span>
+              <button class="add-btn" data-name="Malai Puff" data-price="45">Add to Cart</button>
+          </article>
+
+          <article class="product-card">
+            <h3>Pizza Puff</h3>
+            <p>Cheesy pizza flavors and delicious veggies.</p>
+              <span>₹65</span>
+              <button class="add-btn" data-name="Pizza Puff" data-price="65">Add to Cart</button>
+          </article>
+
+          <article class="product-card">
+            <h3>Sev Sing Puff</h3>
+            <p>Flavorful veggies and topped with crispy sev for a delicious crunch.</p>
+              <span>₹40</span>
+              <button class="add-btn" data-name="Sev Sing Puff" data-price="40">Add to Cart</button>
+          </article>
+
+          <article class="product-card">
+            <h3>Peri Peri Puff</h3>
+            <p>Spicy peri peri flavors and a delicious veggie filling.</p>
+              <span>₹35</span>
+              <button class="add-btn" data-name="Peri Peri Puff" data-price="35">Add to Cart</button>
+          </article>
+
+          <article class="product-card">
+            <h3>Chinese Puff</h3>
+            <p>Flavorful chinese-style veggies and savory spices.</p>
+              <span>₹50</span>
+              <button class="add-btn" data-name="Chinese Puff" data-price="50">Add to Cart</button>
+          </article>
+
+          <article class="product-card">
+            <h3>Cheese Mint Mayonnaise Puff</h3>
+            <p>Creamy cheese, refreshing mint, and rich mayonnaise.</p>
+              <span>₹80</span>
+              <button class="add-btn" data-name="Cheese Mint Mayonnaise Puff" data-price="80">Add to Cart</button>
+          </article>
+
+          <article class="product-card">
+            <h3>Garlic Puff</h3>
+            <p>Aromatic garlic flavors and a deliciously savory filling.</p>
+              <span>₹40</span>
+              <button class="add-btn" data-name="Garlic Puff" data-price="40">Add to Cart</button>
+          </article>
+
+          <article class="product-card">
+            <h3>Mexican Puff</h3>
+            <p>Spicy Mexican-style veggies and delicious cheesy flavors.</p>
+              <span>₹90</span>
+              <button class="add-btn" data-name="Mexican Puff" data-price="90">Add to Cart</button>
+          </article>
+
+          <article class="product-card">
+            <h3>Tandoori Puff</h3>
+            <p>Smoky tandoori flavors and deliciously spiced veggies.</p>
+              <span>₹80</span>
+              <button class="add-btn" data-name="Tandoori Puff" data-price="80">Add to Cart</button>
+          </article>
+
+          <article class="product-card">
+            <h3>Special Puff</h3>
+            <p>Delicious blend of flavorful veggies, creamy cheese, and special spices.</p>
+              <span>₹180</span>
+              <button class="add-btn" data-name="Special Puff" data-price="180">Add to Cart</button>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <section id="about" class="about">
+        <div class="section-title">
+            <h2>About Us</h2>
+        </div>
+
+        <p>
+            We serve fresh and delicious puffs made with premium ingredients.
+        </p>
+    </section>
+    
+    <section id="contact" class="contact">
+  <div class="section-title">
+    <h2>Contact Us</h2>
+  </div>
+
+  <p>📍 Ahmedabad, Gujarat</p>
+  <p>📞 +91 8849291596</p>
+  <p>📧 puffdelight@gmail.com</p>
+</section>
+
+    <aside id="cart" class="cart-panel">
+      <div class="cart-header">
+        <h3>Your Cart</h3>
+        <span id="cartCount">0</span>
+      </div>
+      <ul id="cartItems"></ul>
+      <div class="cart-total">
+        <strong>Total</strong>
+        <span id="cartTotal">$0</span>
+      </div>
+      <button class="btn primary full" id="checkoutBtn">Place Order</button>
+    </aside>
+
+    <div class="modal hidden" id="orderModal">
+      <div class="modal-card">
+        <h3>Complete your order</h3>
+        <form id="orderForm">
+          <input type="text" id="name" placeholder="Full Name" required />
+          <input type="tel" id="phone" placeholder="Phone Number" required />
+          <textarea id="address" placeholder="Delivery Address" required></textarea>
+          <select id="payment">
+            <option>
+              Cash On Delivery
+            </option>
+
+            <option>
+              UPI
+            </option>
+          </select>
+          <button type="submit" class="btn primary full">Confirm Order</button>
+        </form>
+        <button class="modal-close" id="closeModal">×</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
