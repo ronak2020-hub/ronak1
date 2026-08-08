@@ -522,6 +522,22 @@ main {
     cursor: pointer;
 }
 
+.cart-popup {
+  position: fixed;
+  right: 20px;
+  top: 80px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-20px);
+  transition: 0.3s ease;
+}
+
+.cart-popup.show {
+  opacity: 1;
+  visibility: visible;
+  transform: transalteY(0);
+}
+
 .close-cart {
     position: absolute;
     top: 15px;
