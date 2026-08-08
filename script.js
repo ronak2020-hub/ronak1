@@ -372,6 +372,12 @@ if (tiltCard) {
 
 updateCart();
 
+const cartPopup=document.getElementById("cartPopup");
+
+if(cartPopup) {
+    cartPopup.classList.add("show");
+}
+
 window.addEventListener("scroll", function () {
 
     // Search close
@@ -385,5 +391,3 @@ window.addEventListener("scroll", function () {
     }
 
 });
-
-document.getElementById("cartPopup").classList.add("show");
