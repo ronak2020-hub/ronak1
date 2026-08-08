@@ -385,3 +385,5 @@ window.addEventListener("scroll", function () {
     }
 
 });
+
+document.getElementById("cartPopup").classList.add("show");
