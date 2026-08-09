@@ -528,19 +528,6 @@ main {
   transform: transalteY(0);
 }
 
-#cartPopup {
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(-20px);
-  transition: all 0.3s ease;
-}
-
-#cartPopup.show {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
-}
-
 .close-cart {
     position: absolute;
     top: 15px;
